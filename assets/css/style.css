@@ -62,6 +62,9 @@ body {
 #copy {
     display: block;
 }
+#site-title {
+    text-align: center;
+}
 
 @media (min-width: 992px) {
 #wrapper {
@@ -71,9 +74,7 @@ body {
 #header {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-}
-#btn-menu {
-    display: none;
+    padding: 20px 10px;
 }
 #main {
     grid-column: 2 / 3;
@@ -82,6 +83,15 @@ body {
 #footer {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+}
+.visible-phone {
+    display: none!important;
+}
+#site-title {
+    font-size: 2rem;
+}
+#copy {
+    font-size: 1.4rem;
 }
 }
 
@@ -93,6 +103,7 @@ body {
     grid-row: 1 / 2;
     display: grid;
     place-content: center;
+    padding: 10px 5px;
 }
 #gnav {
     display: none;
@@ -123,5 +134,14 @@ body {
 }
 #footer {
     grid-row: 3 / 4;
+}
+.hidden-phone {
+    display: none!important;
+}
+#site-title {
+    font-size: 1.6rem;
+}
+#copy {
+    font-size: 1.2rem;
 }
 }
