@@ -43,6 +43,7 @@ body {
     height: 40px;
     border: 1px solid #2e2e2e;
     background-color: #aaa;
+    padding: 0;
     font-size: 1.2rem;
     position: absolute;
     top: 5px;
@@ -76,10 +77,10 @@ body {
 }
 #main {
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-row: 1 / 3;
 }
 #footer {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 }
@@ -98,6 +99,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #aaa;
+    overflow-y: auto;
     position: fixed;
     top: 0;
     left: 0;
