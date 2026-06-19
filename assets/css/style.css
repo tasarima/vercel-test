@@ -102,6 +102,7 @@ body {
     z-index: 7;
 }
 #gnav.open,#gnav.close {
+    display: block;
     animation-duration: .3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
