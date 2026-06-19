@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+*,*::before,*::after {
+    font-family: "Google Sans", "Noto Sans JP", sans-serif;
+}
 html,body {
     margin: 0;
     padding: 0;
@@ -23,6 +26,11 @@ body {
 #footer {
     background-color: #bbb;
     text-align: center;
+    display: grid;
+    place-content: center;
+}
+#copy {
+    display: block;
 }
 
 @media (min-width: 992px) {
